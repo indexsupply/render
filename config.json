@@ -23,8 +23,6 @@
 			"table": {
 				"name": "token_transfers",
 				"columns": [
-					{"name": "src_name", "type": "text"},
-					{"name": "intg_name", "type": "text"},
 					{"name": "chain_id", "type": "numeric"},
 					{"name": "block_num", "type": "numeric"},
 					{"name": "block_time", "type": "numeric"},
@@ -36,8 +34,6 @@
 				]
 			},
 			"block": [
-				{"name": "src_name", "column": "src_name"},
-				{"name": "intg_name", "column": "intg_name"},
 				{"name": "chain_id", "column": "chain_id"},
 				{"name": "block_num", "column": "block_num"},
 				{"name": "block_time", "column": "block_time"},
