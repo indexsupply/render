@@ -1,3 +1,3 @@
-FROM indexsupply/e2pg:latest
+FROM indexsupply/shovel:latest
 COPY config.json .
-CMD e2pg -config config.json -l :$PORT
+CMD shovel -config config.json -l :$PORT
